@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bcz/CLionProjects/Polymorphism/Account.h
+iostream
+-
+string
+-
+IPrintable.h
+C:/Users/bcz/CLionProjects/Polymorphism/IPrintable.h
+
+C:/Users/bcz/CLionProjects/Polymorphism/AccountUtil.cpp
+iostream
+-
+AccountUtil.h
+C:/Users/bcz/CLionProjects/Polymorphism/AccountUtil.h
+
+C:/Users/bcz/CLionProjects/Polymorphism/AccountUtil.h
+vector
+-
+Account.h
+C:/Users/bcz/CLionProjects/Polymorphism/Account.h
+
+C:/Users/bcz/CLionProjects/Polymorphism/IPrintable.h
+iostream
+-
+
